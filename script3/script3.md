@@ -2,12 +2,12 @@
 ## el siguiente codigo genera parrafos con texto aleatorio
 
 1.Selecciona el elemento body del documento HTML utilizando document.querySelector('body') y lo almacena en la variable body.
-```
+```javascript
 const body= document.querySelector('body')
 
 ```
 2.Define un array llamado text que contiene 100 palabras.
-```
+```javascript
 const text = [
                     "manzana", "perro", "gato", "casa", "amarillo", "azul", "rojo", "verde", "playa", "montaña",
                     "computadora", "teléfono", "libro", "canción", "baile", "familia", "amigo", "pelicula", "futbol", "juego",
@@ -22,7 +22,7 @@ const text = [
                   ];
 ```
 3.Declara una función llamada crearParrafo que genera un párrafo aleatorio con un número aleatorio de palabras seleccionadas al azar del array text.
-```
+```javascript
 function crearParrafo(){
     let contenedorTexto=""
     let numPalabras = Math.floor(Math.random()*(100-50)+50)
